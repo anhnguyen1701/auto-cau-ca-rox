@@ -1,5 +1,6 @@
 try:
 
+    import cv2, numpy
     from pyautogui import *
     import pyautogui
     import time
@@ -106,11 +107,8 @@ try:
             checkrutcan = True
             postionkeocan = None
         else:
-            if diemtheluc <= 10:
+            if diemtheluc <= 0:
                 break
-            else:
-                time.sleep(0.2)
-                # print("ko thay gi")
 
 except Exception as e:
     print(e)

@@ -1,4 +1,5 @@
 try:
+    import cv2, numpy
     from pyautogui import *
     import pyautogui
     import time
